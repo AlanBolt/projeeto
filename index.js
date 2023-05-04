@@ -1,12 +1,14 @@
 
-const bota = document.querySelector("#btn1");
+const bota= document.querySelector("#btn1");
 function hello(){
   console.log("oi");
 }
 function word(){
   console.log("gente");
+  
 }
 //adcionar mecanica
+
 bota.addEventListener("click", hello);
 bota.addEventListener("click", word);
 
